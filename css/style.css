@@ -29,7 +29,9 @@ li {
 
 .flex_space {
   display: flex;
+  position: fixed;
   justify-content: space-between;
+  z-index: 3;
 }
 
 button {
@@ -139,12 +141,23 @@ header .navlinks span {
 
 /*--------header---------*/
 /*--------about---------*/
+
 .about {
-  position: relative;
+  margin: 0;
+  height: 90vh;
+  background-image: url(/Hotel-Booking-main/Images/about.png);
+  background-size: cover;
+  background-position: center;
 }
 
 /*--------about---------*/
 /*--------book---------*/
+
+.flexSpace {
+  display: flex;
+  justify-content: space-between;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
