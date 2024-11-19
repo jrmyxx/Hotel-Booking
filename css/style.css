@@ -100,6 +100,12 @@ header button {
   padding: 13px 40px;
 }
 
+header .navlinks {
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  width: 100%;
+}
+
 header .navlinks span {
   display: none;
 }
@@ -328,8 +334,8 @@ h1 {
   top: 0;
   left: 0;
   background: rgba(126, 193, 65, 0.86);
-  width: 255px;
-  height: 251px;
+  width: 320px;
+  height: 320px;
   z-index: 2;
   opacity: 0;
   transition: 0.5s;
@@ -380,6 +386,7 @@ h1 {
 }
 
 /*--------gallery---------*/
+
 /*--------services---------*/
 .services {
   position: relative;
@@ -436,6 +443,7 @@ h1 {
   color: #fff;
 }
 /*--------services---------*/
+
 /*--------footer---------*/
 footer {
   background: #282834;
